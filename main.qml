@@ -5,11 +5,26 @@ Window {
     visible: true
     width: 600
     height: 1024
-
+    
+    property real buttons_width: 160
+    property real buttons_height: 185
+    property real mouse_range1_x: 20
+    property real mouse_range1_y: 45
+    property real mouse_range1_width: 126
+    property real mouse_range1_height: 80
+    property real mouse_range2_x: 50
+    property real mouse_range2_y: 25
+    property real mouse_range2_width: 70
+    property real mouse_range2_height: 20
+    property real mouse_range3_x: 50
+    property real mouse_range3_y: 125
+    property real mouse_range3_width: mouse_range2_width
+    property real mouse_range3_height: mouse_range2_height
+    
     Rectangle {
         id: recB1
-        width: 160
-        height: 185
+        width: buttons_width
+        height: buttons_height
         color: "transparent"
         border.color: "black"
         x: 200
@@ -26,11 +41,11 @@ Window {
 
         Rectangle {
             id:rec1
-            x: 20
-            y: 45
+            x: mouse_range1_x
+            y: mouse_range1_y
             z: 1
-            width: 126
-            height: 80
+            width: mouse_range1_width
+            height: mouse_range1_height
             color: "transparent"
             border.color: "red"
 
@@ -45,11 +60,11 @@ Window {
 
         Rectangle {
             id:rec2
-            x: 50
-            y: 25
+            x: mouse_range2_x
+            y: mouse_range2_y
             z: 1
-            width: 70
-            height: 20
+            width: mouse_range2_width
+            height: mouse_range2_height
             color: "transparent"
             border.color: "red"
 
@@ -64,11 +79,11 @@ Window {
 
         Rectangle {
             id:rec3
-            x: 50
-            y: 125
+            x: mouse_range3_x
+            y: mouse_range3_y
             z: 1
-            width: 70
-            height: 20
+            width: mouse_range3_width
+            height: mouse_range3_height
             color: "transparent"
             border.color: "red"
 
@@ -85,8 +100,8 @@ Window {
     }
     Rectangle {
         id: recB2
-        width: 160
-        height: 185
+        width: buttons_width
+        height: buttons_height
         color: "transparent"
         border.color: "black"
         x: 132
@@ -103,11 +118,11 @@ Window {
 
         Rectangle {
             id:rec4
-            x: 20
-            y: 45
+            x: mouse_range1_x
+            y: mouse_range1_y
             z: 1
-            width: 126
-            height: 80
+            width: mouse_range1_width
+            height: mouse_range1_height
             color: "transparent"
             border.color: "red"
 
@@ -122,11 +137,11 @@ Window {
 
         Rectangle {
             id:rec5
-            x: 50
-            y: 25
+            x: mouse_range2_x
+            y: mouse_range2_y
             z: 1
-            width: 70
-            height: 20
+            width: mouse_range2_width
+            height: mouse_range2_height
             color: "transparent"
             border.color: "red"
 
@@ -141,11 +156,11 @@ Window {
 
         Rectangle {
             id:rec6
-            x: 50
-            y: 125
+            x: mouse_range3_x
+            y: mouse_range3_y
             z: 1
-            width: 70
-            height: 20
+            width: mouse_range3_width
+            height: mouse_range3_height
             color: "transparent"
             border.color: "red"
 
@@ -162,8 +177,8 @@ Window {
 
     Rectangle {
         id: recB3
-        width: 160
-        height: 185
+        width: buttons_width
+        height: buttons_height
         color: "transparent"
         border.color: "black"
         x: 268
@@ -180,11 +195,11 @@ Window {
 
         Rectangle {
             id:rec7
-            x: 20
-            y: 45
+            x: mouse_range1_x
+            y: mouse_range1_y
             z: 1
-            width: 126
-            height: 80
+            width: mouse_range1_width
+            height: mouse_range1_height
             color: "transparent"
             border.color: "red"
 
@@ -199,11 +214,11 @@ Window {
 
         Rectangle {
             id:rec8
-            x: 50
-            y: 25
+            x: mouse_range2_x
+            y: mouse_range2_y
             z: 1
-            width: 70
-            height: 20
+            width: mouse_range2_width
+            height: mouse_range2_height
             color: "transparent"
             border.color: "red"
 
@@ -218,11 +233,11 @@ Window {
 
         Rectangle {
             id:rec9
-            x: 50
-            y: 125
+            x: mouse_range3_x
+            y: mouse_range3_y
             z: 1
-            width: 70
-            height: 20
+            width: mouse_range3_width
+            height: mouse_range3_height
             color: "transparent"
             border.color: "red"
 
@@ -238,8 +253,8 @@ Window {
 
     Rectangle {
         id: recB4
-        width: 160
-        height: 185
+        width: buttons_width
+        height: buttons_height
         color: "transparent"
         border.color: "black"
         x: 200
@@ -256,11 +271,11 @@ Window {
 
         Rectangle {
             id:rec10
-            x: 20
-            y: 45
+            x: mouse_range1_x
+            y: mouse_range1_y
             z: 1
-            width: 126
-            height: 80
+            width: mouse_range1_width
+            height: mouse_range1_height
             color: "transparent"
             border.color: "red"
 
@@ -275,11 +290,11 @@ Window {
 
         Rectangle {
             id:rec11
-            x: 50
-            y: 25
+            x: mouse_range2_x
+            y: mouse_range2_y
             z: 1
-            width: 70
-            height: 20
+            width: mouse_range2_width
+            height: mouse_range2_height
             color: "transparent"
             border.color: "red"
 
@@ -294,11 +309,11 @@ Window {
 
         Rectangle {
             id:rec12
-            x: 50
-            y: 125
+            x: mouse_range3_x
+            y: mouse_range3_y
             z: 1
-            width: 70
-            height: 20
+            width: mouse_range3_width
+            height: mouse_range3_height
             color: "transparent"
             border.color: "red"
 
@@ -314,8 +329,8 @@ Window {
 
     Rectangle {
         id: recB5
-        width: 160
-        height: 185
+        width: buttons_width
+        height: buttons_height
         color: "transparent"
         border.color: "black"
         x: 335
@@ -332,11 +347,11 @@ Window {
 
         Rectangle {
             id:rec13
-            x: 20
-            y: 45
+            x: mouse_range1_x
+            y: mouse_range1_y
             z: 1
-            width: 126
-            height: 80
+            width: mouse_range1_width
+            height: mouse_range1_height
             color: "transparent"
             border.color: "red"
 
@@ -351,11 +366,11 @@ Window {
 
         Rectangle {
             id:rec14
-            x: 50
-            y: 25
+            x: mouse_range2_x
+            y: mouse_range2_y
             z: 1
-            width: 70
-            height: 20
+            width: mouse_range2_width
+            height: mouse_range2_height
             color: "transparent"
             border.color: "red"
 
@@ -370,11 +385,11 @@ Window {
 
         Rectangle {
             id:rec15
-            x: 50
-            y: 125
+            x: mouse_range3_x
+            y: mouse_range3_y
             z: 1
-            width: 70
-            height: 20
+            width: mouse_range3_width
+            height: mouse_range3_height
             color: "transparent"
             border.color: "red"
 
@@ -390,8 +405,8 @@ Window {
 
     Rectangle {
         id: recB6
-        width: 160
-        height: 185
+        width: buttons_width
+        height: buttons_height
         color: "transparent"
         border.color: "black"
         x: 130
@@ -408,11 +423,11 @@ Window {
 
         Rectangle {
             id:rec16
-            x: 20
-            y: 45
+            x: mouse_range1_x
+            y: mouse_range1_y
             z: 1
-            width: 126
-            height: 80
+            width: mouse_range1_width
+            height: mouse_range1_height
             color: "transparent"
             border.color: "red"
 
@@ -427,11 +442,11 @@ Window {
 
         Rectangle {
             id:rec17
-            x: 50
-            y: 25
+            x: mouse_range2_x
+            y: mouse_range2_y
             z: 1
-            width: 70
-            height: 20
+            width: mouse_range2_width
+            height: mouse_range2_height
             color: "transparent"
             border.color: "red"
 
@@ -446,11 +461,11 @@ Window {
 
         Rectangle {
             id:rec18
-            x: 50
-            y: 125
+            x: mouse_range3_x
+            y: mouse_range3_y
             z: 1
-            width: 70
-            height: 20
+            width: mouse_range3_width
+            height: mouse_range3_height
             color: "transparent"
             border.color: "red"
 
@@ -466,8 +481,8 @@ Window {
 
     Rectangle {
         id: recB7
-        width: 160
-        height: 185
+        width: buttons_width
+        height: buttons_height
         color: "transparent"
         border.color: "black"
         x: 265
@@ -484,11 +499,11 @@ Window {
 
         Rectangle {
             id:rec19
-            x: 20
-            y: 45
+            x: mouse_range1_x
+            y: mouse_range1_y
             z: 1
-            width: 126
-            height: 80
+            width: mouse_range1_width
+            height: mouse_range1_height
             color: "transparent"
             border.color: "red"
 
@@ -503,11 +518,11 @@ Window {
 
         Rectangle {
             id:rec20
-            x: 50
-            y: 25
+            x: mouse_range2_x
+            y: mouse_range2_y
             z: 1
-            width: 70
-            height: 20
+            width: mouse_range2_width
+            height: mouse_range2_height
             color: "transparent"
             border.color: "red"
 
@@ -522,11 +537,11 @@ Window {
 
         Rectangle {
             id:rec21
-            x: 50
-            y: 125
+            x: mouse_range3_x
+            y: mouse_range3_y
             z: 1
-            width: 70
-            height: 20
+            width: mouse_range3_width
+            height: mouse_range3_height
             color: "transparent"
             border.color: "red"
 
@@ -542,8 +557,8 @@ Window {
 
     Rectangle {
         id: recB8
-        width: 160
-        height: 185
+        width: buttons_width
+        height: buttons_height
         color: "transparent"
         border.color: "black"
         x: 195
@@ -560,11 +575,11 @@ Window {
 
         Rectangle {
             id:rec22
-            x: 20
-            y: 45
+            x: mouse_range1_x
+            y: mouse_range1_y
             z: 1
-            width: 126
-            height: 80
+            width: mouse_range1_width
+            height: mouse_range1_height
             color: "transparent"
             border.color: "red"
 
@@ -579,11 +594,11 @@ Window {
 
         Rectangle {
             id:rec23
-            x: 50
-            y: 25
+            x: mouse_range2_x
+            y: mouse_range2_y
             z: 1
-            width: 70
-            height: 20
+            width: mouse_range2_width
+            height: mouse_range2_height
             color: "transparent"
             border.color: "red"
 
@@ -598,11 +613,11 @@ Window {
 
         Rectangle {
             id:rec24
-            x: 50
-            y: 125
+            x: mouse_range3_x
+            y: mouse_range3_y
             z: 1
-            width: 70
-            height: 20
+            width: mouse_range3_width
+            height: mouse_range3_height
             color: "transparent"
             border.color: "red"
 
